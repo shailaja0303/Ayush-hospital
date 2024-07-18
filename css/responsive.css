@@ -1,0 +1,1267 @@
+/* Mobile devices (320px — 480px) */
+@media (max-width: 480px) {
+    /* top bar  */
+    .top-bar {
+      flex-direction: column;
+      padding: 10px;
+    }
+   .top-bar.contact-info {
+      flex-direction: column;
+      gap: 10px;
+    }
+   .top-bar.social-media {
+      flex-direction: column;
+      gap: 5px;
+    }
+   .top-bar.social-media a {
+      font-size: 1em;
+    }
+  /* header section  */
+  .D-flex{
+    display:none !important;
+  }
+  /* hero banner  */
+  .hero-banner {
+    padding: 50px 10px;
+    background-image: url('../images/hero-bg2.jpg');
+  }
+ .hero-banner h1 {
+    font-size: 25px;
+  }
+ .hero-banner p {
+    font-size: 15px;
+  }
+ .buttonclass button {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+  
+    /* contact page  starts*/
+    /* contact section  */
+    .flex-container {
+        flex-direction: column;
+    }
+    .form-column, .text-column {
+        margin: 0 0 20px 0;
+    }
+    .form-column h2, .text-column h2 {
+        font-size: 20px;
+    }
+    .form-group input, .form-group textarea {
+        font-size: 14px;
+    }
+    button[type="submit"] {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .schedule h2 {
+        font-size: 20px;
+    }
+    .schedule p {
+        font-size: 16px;
+    }
+   /* footer starts  */
+   .footer {
+    padding: 20px 10px;
+}
+.footer-column {
+    flex: 1 0 100%; /* make each column full-width */
+    margin: 10px 0;
+}
+.footer-column h4 {
+    font-size: 16px;
+}
+.social-media a {
+    font-size: 18px;
+}
+/* team page starts  */
+/* team section  */
+.team_card {
+    width: 100%;
+}
+/* testimonial slide  */
+.testimonial-section {
+    padding: 20px 10px;
+}
+
+.testimonial-slider {
+    max-width: 100%;
+}
+
+.testimonial-slide {
+    padding: 15px;
+}
+
+.slider-controls button {
+    font-size: 16px;
+    padding: 8px 15px;
+}
+/* appointment page  */
+.appoint-cards-section {
+    flex-direction: column;
+    align-items: center;
+}
+
+.appoint-card {
+    width: 80%;
+    margin-bottom: 20px;
+}
+/* faq section  */
+.faqclass {
+    padding: 20px 10px;
+}
+
+.faqclass .heading h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.faqclass .card-header .btn {
+    font-size: 16px;
+}
+
+.faqclass .card-body {
+    font-size: 14px;
+}
+/* services page  */
+/* service cards  */
+.service-card {
+    width: calc(100% - 40px);
+    height:22%;
+  }
+  /* background  */
+  .background-section h2 {
+    font-size: 1.8em;
+}
+
+.background-section p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.statistics-section .stat img {
+    width: 80px;
+}
+
+.statistics-section .stat p {
+    font-size: 1em;
+}
+/* about us page  */
+
+  /* home section  */
+  .home-choose-section {
+    flex-direction: column;
+  }
+  .home-choose-image {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .home-choose-content {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .column-container {
+    flex-direction: column;
+  }
+  .column {
+    width: 100%;
+    margin: 10px 0;
+  }
+/* slider  */
+.doctor-card {
+    width: 200px;
+    margin: 10px;
+  }
+  .slick-slider .slick-slide {
+    margin: 5px;
+  }
+/* home page  */
+.home-about-section {
+    flex-direction: column;
+    gap: 2%;
+  }
+  .home-about-content {
+    width: 100%;
+  }
+  .home-about-content h2{
+    font-size:30px;
+  }
+  .home-about-list{
+    flex-direction: column;
+  }
+  .list2,.list1{
+    width:100%;
+  }
+  .home-about-images {
+    width: 100%;
+  }
+  .home-big-hex {
+    width: 100%;
+    height: 100%;
+  }
+  .home-small-hex {
+    width: 100px;
+    height: 86px;
+  }
+  .home-small-hex-left {
+    left: -50px;
+    top: -43px;
+  }
+  .home-small-hex-right {
+    right: -50px;
+    bottom: -43px;
+  }
+  .home-service-card {
+    width: 100%;
+    margin: 10px;
+  }
+  /* marque  */
+  marquee {
+    font-size: 18px;
+  }
+  /* latest news section  */
+  .news-article {
+    width: 250px;
+    margin: 10px;
+  }
+ .news-article img.imgcls {
+    height: 100px;
+  }
+  /* hamburge  */
+  .header-container {
+    flex-direction: column;
+}
+
+.header-left {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+nav {
+    display: none;
+}
+
+.hamburger {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.hamburger:hover {
+    background-color: #444;
+}
+
+#nav-list {
+    display: none;
+}
+/* award section starts  */
+.accreditations-awards-section {
+  padding: 30px 0;
+}
+.award-section {
+  flex-direction: column;
+}
+.accreditations-content {
+  max-width: 90%;
+  padding: 15px;
+  margin-top:10px;
+}
+.accreditations-content h3 {
+  font-size: 16px;
+}
+.accreditations-content li {
+  margin-bottom: 15px;
+}
+}
+
+
+
+
+/* iPads, Tablets (481px — 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    /* top bar  */
+    .top-bar {
+      flex-direction: row;
+      padding: 15px;
+    }
+   .top-bar.contact-info {
+      flex-direction: row;
+      gap: 15px;
+    }
+   .top-bar.social-media {
+      flex-direction: row;
+      gap: 10px;
+    }
+   .top-bar.social-media a {
+      font-size: 1.1em;
+    }
+    /* header section  */
+    .D-flex{
+      display:none !important;
+    }
+
+    /* hero banner  */
+    .hero-banner {
+      padding: 70px 15px;
+      background-image: url('../images/hero-bg2.jpg');
+    }
+   .hero-banner h1 {
+      font-size: 32px;
+    }
+   .hero-banner p {
+      font-size: 20px;
+    }
+   .buttonclass button {
+      padding: 10px 18px;
+      font-size: 16px;
+    }
+/* contact page  */
+/* contact section  */
+.flex-container {
+    flex-direction: column;
+}
+.form-column, .text-column {
+    margin: 0 0 20px 0;
+}
+.form-column h2, .text-column h2 {
+    font-size: 22px;
+}
+.form-group input, .form-group textarea {
+    font-size: 15px;
+}
+button[type="submit"] {
+    font-size: 15px;
+    padding: 10px;
+}
+.schedule h2 {
+    font-size: 22px;
+}
+.schedule p {
+    font-size: 17px;
+}
+/* footer starts  */
+.footer {
+    padding: 30px 15px;
+}
+.footer-column {
+    flex: 1 0 50%; /* make each column half-width */
+    margin: 10px 5px;
+}
+.footer-column h4 {
+    font-size: 18px;
+}
+.social-media a {
+    font-size: 20px;
+}
+/* team page starts  */
+/* team section  */
+.team_card {
+    width: calc(50% - 30px);
+}
+/* testimonial slide  */
+.testimonial-section {
+    padding: 30px 15px;
+}
+
+.testimonial-slider {
+    max-width: 90%;
+}
+
+.testimonial-slide {
+    padding: 18px;
+}
+
+.slider-controls button {
+    font-size: 17px;
+    padding: 9px 18px;
+}
+/* appointment page  */
+.appoint-cards-section {
+    flex-direction: column;
+    align-items: center;
+}
+
+.appoint-card {
+    width: 80%;
+    margin-bottom: 20px;
+}
+/* faq section  */
+.faqclass {
+    padding: 30px 15px;
+}
+
+.faqclass .heading h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.faqclass .card-header .btn {
+    font-size: 18px;
+}
+
+.faqclass .card-body {
+    font-size: 16px;
+}
+/* service page  */
+/* service card  */
+.service-card {
+    width: calc(50% - 40px);
+  }
+  /* background  */
+  .background-section h2 {
+    font-size: 2em;
+}
+
+.background-section p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.statistics-section .stat img {
+    width: 90px;
+}
+
+.statistics-section .stat p {
+    font-size: 1.05em;
+}
+
+  /* home section  */
+  .home-choose-section {
+    flex-direction: column;
+  }
+  .home-choose-image {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .home-choose-content {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .column-container {
+    flex-direction: row;
+  }
+  .column {
+    width: 45%;
+    margin: 10px;
+  }
+  /* slider  */
+  .doctor-card {
+    width: 220px;
+    margin: 15px;
+  }
+  .slick-slider .slick-slide {
+    margin: 10px;
+  }
+/* home page  */
+.home-about-section {
+    flex-direction: column;
+    gap: 3%;
+  }
+  .home-about-content {
+    width: 100%;
+  }
+  .home-about-images {
+    width: 100%;
+  }
+  .home-big-hex {
+    width: 100%;
+    height: 350px;
+  }
+  .home-small-hex {
+    width: 150px;
+    height: 129px;
+  }
+  .home-small-hex-left {
+    left: -75px;
+    top: -64px;
+  }
+  .home-small-hex-right {
+    right: -75px;
+    bottom: -64px;
+  }
+  .home-service-card {
+    width: 220px;
+    margin: 15px;
+  }
+  /* marque  */
+  marquee {
+    font-size: 20px;
+  }
+  /* latest news section  */
+  .news-article {
+    width: 280px;
+    margin: 15px;
+  }
+ .news-article img.imgcls {
+    height: 120px;
+  }
+/* hamburger */
+.header-container {
+    flex-direction: row;
+  }
+
+ .header-left {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  nav {
+    display: block;
+  }
+
+ .hamburger {
+    display: none;
+  }
+
+  #nav-list {
+    display: block;
+  }
+
+ .header-right {
+    flex-direction: row;
+    align-items: center;
+  }
+
+ .inputclass {
+    width: 200px;
+  }
+  .accreditations-awards-section {
+    padding: 40px 0;
+  }
+  .award-section {
+    flex-direction: row;
+  }
+  .accreditations-content {
+    max-width: 60%;
+    padding: 20px;
+  }
+  .accreditations-content h3 {
+    font-size: 18px;
+  }
+  .accreditations-content li {
+    margin-bottom: 20px;
+  }
+  
+}
+
+
+
+
+/* Small screens, laptops (769px — 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+/* top bar  */
+.top-bar {
+  flex-direction: row;
+  padding: 20px;
+}
+.top-bar.contact-info {
+  flex-direction: row;
+  gap: 20px;
+}
+.top-bar.social-media {
+  flex-direction: row;
+  gap: 15px;
+}
+.top-bar.social-media a {
+  font-size: 1.2em;
+}
+/* header section  */
+.D-flex{
+  display:none !important;
+}
+  /* hero banner  */
+  .hero-banner {
+    padding: 90px 20px;
+    background-image: url('../images/hero-bg2.jpg');
+  }
+ .hero-banner h1 {
+    font-size: 48px;
+  }
+ .hero-banner p {
+    font-size: 24px;
+  }
+ .buttonclass button {
+    padding: 12px 22px;
+    font-size: 18px;
+  }
+    /* contact page  */
+    /* contact section  */
+    .form-column h2, .text-column h2 {
+        font-size: 24px;
+    }
+    .form-group input, .form-group textarea {
+        font-size: 16px;
+    }
+    button[type="submit"] {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .schedule h2 {
+        font-size: 24px;
+    }
+    .schedule p {
+        font-size: 18px;
+    }
+    /* footer starts  */
+    .footer {
+        padding: 40px 20px;
+    }
+ .footer-column {
+        flex: 1 0 33.33%; /* make each column one-third width */
+        margin: 10px 10px;
+    }
+ .footer-column h4 {
+        font-size: 20px;
+    }
+ .social-media a {
+        font-size: 22px;
+    }
+    /* team page starts  */
+    /* team section  */
+    .team_card {
+        width: calc(33.33% - 30px);
+    }
+    /* testimonial slide  */
+    .testimonial-section {
+        padding: 35px 20px;
+    }
+
+    .testimonial-slider {
+        max-width: 80%;
+    }
+
+    .testimonial-slide {
+        padding: 20px;
+    }
+
+    .slider-controls button {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    /* appointment page  */
+    .appoint-cards-section {
+      flex-direction: column;
+      align-items: center;
+    
+  }
+    .appoint-card {
+        width: 100%;
+        margin-top: 3%;
+
+    }
+    .appoint-card :hover{
+      transform: scale(0.9);
+
+  }
+    /* faq section  */
+    .faqclass {
+        padding: 35px 20px;
+    }
+
+    .faqclass .heading h2 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .faqclass .card-header .btn {
+        font-size: 18px;
+    }
+
+    .faqclass .card-body {
+        font-size: 16px;
+    }
+    /* service page  */
+    /* sevice card  */
+    .service-card {
+        width: calc(50% - 40px);
+      }
+      /* background  */
+      .background-section h2 {
+        font-size: 2.2em;
+    }
+
+    .background-section p {
+        font-size: 1.15em;
+        margin-bottom: 35px;
+    }
+
+    .statistics-section .stat img {
+        width: 100px;
+    }
+
+    .statistics-section .stat p {
+        font-size: 1.1em;
+    }
+    /* about us page  */
+    
+      /* home section  */
+      .home-choose-section {
+        flex-direction: row;
+      }
+      .home-choose-image {
+        width: 40%;
+        margin: 20px;
+      }
+      .home-choose-content {
+        width: 50%;
+        margin: 20px;
+      }
+      .column-container {
+        flex-direction: row;
+      }
+      .column {
+        width: 45%;
+        margin: 10px;
+      }
+    /* slider  */
+    .doctor-card {
+        width: 250px;
+        margin: 20px;
+      }
+      .slick-slider .slick-slide {
+        margin: 15px;
+      }
+    /* home page  */
+    .home-about-section {
+        flex-direction: row;
+        gap: 4%;
+      }
+      .home-about-content {
+        width: 55%;
+      }
+      .home-about-images {
+        width: 45%;
+      }
+      .home-big-hex {
+        width: 350px;
+        height: 400px;
+      }
+      .home-small-hex {
+        width: 180px;
+        height: 155px;
+      }
+      .home-small-hex-left {
+        left: -90px;
+        top: -77px;
+      }
+      .home-small-hex-right {
+        right: -90px;
+        bottom: -77px;
+      }
+      .home-service-card {
+        width: 250px;
+        margin: 20px;
+      }
+      /* marque  */
+      marquee {
+        font-size: 22px;
+      }
+      /* latest news  */
+      .news-article {
+        width: 300px;
+        margin: 20px;
+      }
+     .news-article img.imgcls {
+        height: 150px;
+      }
+      /* hamburg  */
+      .header-container {
+        flex-direction: row;
+      }
+    
+     .header-left {
+        flex-direction: row;
+        align-items: center;
+      }
+    
+      nav {
+        display: block;
+      }
+    
+     .hamburger {
+        display: none;
+      }
+    
+      #nav-list {
+        display: block;
+      }
+    
+     .header-right {
+        flex-direction: row;
+        align-items: center;
+      }
+    
+     .inputclass {
+        width: 250px;
+      }
+}
+
+/* Desktops, large screens (1025px — 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    /* top bar  */
+    .top-bar {
+      flex-direction: row;
+      padding: 25px;
+    }
+   .top-bar.contact-info {
+      flex-direction: row;
+      gap: 25px;
+    }
+   .top-bar.social-media {
+      flex-direction: row;
+      gap: 20px;
+    }
+   .top-bar.social-media a {
+      font-size: 1.3em;
+    }
+    /* header section  */
+    .D-flex{
+      display:none !important;
+    }
+  /* hero banner  */
+  .hero-banner {
+    padding: 110px 25px;
+  }
+ .hero-banner h1 {
+    font-size: 54px;
+  }
+ .hero-banner p {
+    font-size: 28px;
+  }
+ .buttonclass button {
+    padding: 14px 25px;
+    font-size: 20px;
+  }
+    /* contact page  */
+    /* contact section */
+    .form-column h2, .text-column h2 {
+        font-size: 24px;
+    }
+    .form-group input, .form-group textarea {
+        font-size: 16px;
+    }
+    button[type="submit"] {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .schedule h2 {
+        font-size: 24px;
+    }
+    .schedule p {
+        font-size: 18px;
+    }
+    /* footer starts  */
+    .footer {
+        padding: 50px 25px;
+    }
+ .footer-column {
+        flex: 1 0 25%; /* make each column one-quarter width */
+        margin: 10px 15px;
+    }
+ .footer-column h4 {
+        font-size: 22px;
+    }
+ .social-media a {
+        font-size: 24px;
+    }
+    /* team page starts  */
+    /* team section  */
+    .team_card {
+        width: calc(25% - 30px);
+    }
+    /* testimonial slide  */
+    .testimonial-section {
+        padding: 40px 20px;
+    }
+
+    .testimonial-slider {
+        max-width: 70%;
+    }
+
+    .testimonial-slide {
+        padding: 20px;
+    }
+
+    .slider-controls button {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    /* appointment page  */
+    .appoint-card {
+        width: 30%;
+    }
+    /* faq section  */
+    .faqclass {
+        padding: 40px 20px;
+    }
+
+    .faqclass .heading h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .faqclass .card-header .btn {
+        font-size: 18px;
+    }
+
+    .faqclass .card-body {
+        font-size: 16px;
+    }
+    /* sevices page  */
+    /* service card  */
+    .service-card {
+        width: calc(25% - 40px);
+      }
+      .service-card img{
+        height:45%;
+      }
+      /* background  */
+      .background-section h2 {
+        font-size: 2.4em;
+    }
+
+    .background-section p {
+        font-size: 1.2em;
+        margin-bottom: 40px;
+    }
+
+    .statistics-section .stat img {
+        width: 100px;
+    }
+
+    .statistics-section .stat p {
+        font-size: 1.1em;
+    }
+ /* about us page  */
+ .ab-about-us-section {
+    flex-direction: row;
+  }
+ .ab-about-column {
+    width: 50%;
+  }
+ .ab-image-column {
+    width: 50%;
+  }
+ .ab-image-row {
+    flex-direction: row;
+  }
+ .ab-image {
+    width: 45%;
+    margin: 10px;
+  }
+/* home section  */
+.home-choose-section {
+    flex-direction: row;
+  }
+  .home-choose-image {
+    width: 40%;
+    margin: 20px;
+  }
+  .home-choose-content {
+    width: 50%;
+    margin: 20px;
+  }
+  .column-container {
+    flex-direction: row;
+  }
+  .column {
+    width: 45%;
+    margin: 10px;
+  }
+/* slider  */
+.doctor-card {
+    width: 280px;
+    margin: 25px;
+  }
+  .slick-slider .slick-slide {
+    margin: 20px;
+  }
+  /* home page  */
+  .home-about-section {
+    flex-direction: row;
+    gap: 5%;
+  }
+  .home-about-content {
+    width: 50%;
+  /* marque  */
+  marquee {
+    font-size: 24px;
+  }
+  /* latest news  */
+  .news-article {
+    width: 320px;
+    margin: 25px;
+  }
+ .news-article img.imgcls {
+    height: 180px;
+  }
+  /* hamburg  */
+  .header-container {
+    flex-direction: row;
+  }
+
+ .header-left {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  nav {
+    display: block;
+  }
+
+ .hamburger {
+    display: none;
+  }
+
+  #nav-list {
+    display: block;
+  }
+
+ .header-right {
+    flex-direction: row;
+    align-items: center;
+  }
+
+ .inputclass {
+    width: 300px;
+  }
+}
+
+/* Extra large screens, TV (1201px and more) */
+@media (min-width: 1201px) {
+    /* top bar  */
+    .top-bar {
+      flex-direction: row;
+      padding: 30px;
+    }
+   .top-bar.contact-info {
+      flex-direction: row;
+      gap: 30px;
+    }
+   .top-bar.social-media {
+      flex-direction: row;
+      gap: 25px;
+    }
+   .top-bar.social-media a {
+      font-size: 1.4em;
+    }
+  /* hero banner  */
+  .hero-banner {
+    padding: 130px 30px;
+  }
+ .hero-banner h1 {
+    font-size: 60px;
+  }
+ .hero-banner p {
+    font-size: 32px;
+  }
+ .buttonclass button {
+    padding: 16px 30px;
+    font-size: 22px;
+  }
+    /* contact page  */
+    /* contact section  */
+    .form-column h2, .text-column h2 {
+        font-size: 26px;
+    }
+    .form-group input, .form-group textarea {
+        font-size: 18px;
+    }
+    button[type="submit"] {
+        font-size: 18px;
+        padding: 12px 24px;
+    }
+    .schedule h2 {
+        font-size: 26px;
+    }
+    .schedule p {
+        font-size: 20px;
+    }
+    /* footer page  */
+    .footer {
+        padding: 60px 30px;
+    }
+ .footer-column {
+        flex: 1 0 20%; /* make each column one-fifth width */
+        margin: 10px 20px;
+    }
+ .footer-column h4 {
+        font-size: 24px;
+    }
+ .social-media a {
+        font-size: 26px;
+    }
+ /* team page  */
+ /* team section  */
+ .team_card {
+    width: calc(25% - 30px);
+}
+/* testimonial section  */
+.testimonial-section {
+    padding: 50px 30px;
+}
+
+.testimonial-slider {
+    max-width: 60%;
+}
+
+.testimonial-slide {
+    padding: 25px;
+}
+
+.slider-controls button {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+/* appointment page  */
+.appoint-card {
+    width: 25%;
+}
+/* faq section  */
+.faqclass {
+    padding: 40px 20px;
+}
+
+.faqclass .heading h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.faqclass .card-header .btn {
+    font-size: 18px;
+}
+
+.faqclass .card-body {
+    font-size: 16px;
+}
+/* service page  */
+/* service card  */
+.service-card {
+    width: calc(25% - 40px);
+  }
+  /* background  */
+  .background-section h2 {
+    font-size: 2.5em;
+}
+
+.background-section p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.statistics-section .stat img {
+    width: 100px;
+}
+
+.statistics-section .stat p {
+    font-size: 1.1em;
+}
+/* about us page  */
+.ab-about-us-section {
+    flex-direction: row;
+  }
+ .ab-about-column {
+    width: 50%;
+  }
+ .ab-image-column {
+    width: 50%;
+  }
+ .ab-image-row {
+    flex-direction: row;
+  }
+ .ab-image {
+    width: 45%;
+    margin: 10px;
+  }
+  /* home section  */
+  .home-choose-section {
+    flex-direction: row;
+  }
+  .home-choose-image {
+    width: 40%;
+    margin: 20px;
+  }
+  .home-choose-content {
+    width: 50%;
+    margin: 20px;
+  }
+  .column-container {
+    flex-direction: row;
+  }
+  .column {
+    width: 45%;
+    margin: 10px;
+  }
+/* slider  */
+.doctor-card {
+    width: 300px;
+    margin: 30px;
+  }
+  .slick-slider .slick-slide {
+    margin: 25px;
+  }
+/* home page  */
+.home-about-content, .home-about-images {
+    width: 50%;
+  }
+  .home-hex {
+    padding-bottom: 100%;
+  }
+  .home-big-hex {
+    padding-bottom: 65%;
+  }
+  .home-small-hex {
+    width: 45%;
+    padding-bottom: 50%;
+    margin: 10px;
+  }
+  .home-service-card {
+    width: 300px;
+    margin: 30px;
+  }
+  marquee {
+    font-size: 26px;
+  }
+  .news-article {
+    width: 350px;
+    margin: 30px;
+  }
+ .news-article img.imgcls {
+    height: 200px;
+  }
+  /* hamburg  */
+  .header-container {
+    flex-direction: row;
+  }
+
+ .header-left {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  nav {
+    display: block;
+  }
+
+ .hamburger {
+    display: none;
+  }
+
+  #nav-list {
+    display: block;
+  }
+
+ .header-right {
+    flex-direction: row;
+    align-items: center;
+  }
+
+ .inputclass {
+    width: 350px;
+  }
+}
+}
