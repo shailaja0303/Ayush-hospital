@@ -60,7 +60,7 @@ setInterval(nextSlide, 5000); // Change slide every 5 seconds
 $(document).ready(function () {
   $(".slick-slider").slick({
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     dots: true,
@@ -68,6 +68,12 @@ $(document).ready(function () {
     responsive: [
       {
         breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 620,
         settings: {
           slidesToShow: 2,
         },
