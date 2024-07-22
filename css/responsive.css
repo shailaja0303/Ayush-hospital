@@ -184,7 +184,7 @@
     width: 100%;
   }
   .home-about-content h2{
-    font-size:30px;
+    font-size:30px
   }
   .home-about-list{
     flex-direction: column;
@@ -276,6 +276,34 @@ nav {
 .accreditations-content li {
   margin-bottom: 15px;
 }
+/* service details page  */
+.details-sidebar {
+  width: 100%;
+  margin-right: 0;
+}
+.details-main-content {
+  width: 100%;
+  padding: 10px;
+}
+.details-image-section img {
+  height: 150px;
+}
+.treatment-img {
+  flex-direction: column;
+  width: 100%;
+}
+.treatment-img img {
+  width: 100%;
+  height: 150px;
+  margin-top:3%;
+}
+.details-treatment-section{
+  flex-direction: column;
+}
+.details-treatment-content{
+  width:100%;
+}
+
 }
 
 
@@ -545,7 +573,27 @@ button[type="submit"] {
   .accreditations-content li {
     margin-bottom: 20px;
   }
-  
+  /* service details page  */
+  .details-sidebar {
+    width: 25%;
+  }
+  .details-main-content {
+    width: 72%;
+   
+  }
+  .details-image-section img {
+    height: 200px;
+  }
+  .treatment-img {
+    flex-direction: column;
+  }
+  .treatment-img img {
+    width: 100%;
+    height: 200px;
+  }
+  .details-treatment-content{
+    width:50%;
+  }
 }
 
 
@@ -797,6 +845,25 @@ button[type="submit"] {
     
      .inputclass {
         width: 250px;
+      }
+      /* service details page  */
+      .details-sidebar {
+        width: 25%;
+      }
+      .details-main-content {
+        width: 72%;
+        padding: 20px;
+      }
+      .details-image-section img {
+        height: 250px;
+      }
+      .treatment-img {
+        flex-direction: column;
+      }
+      .treatment-img img {
+        width: 100%;
+        height: 250px;
+        margin-top:3%;
       }
 }
 

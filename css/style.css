@@ -130,7 +130,7 @@
 /* contact page starts  */
 .contact-section {
     padding: 50px 20px;
-    background-color: #b0f4dd;
+    background-color: #f1efef;
 }
 
 .flex-container {
@@ -146,7 +146,7 @@
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .form-column h2, .text-column h2 {
@@ -240,15 +240,17 @@ button[type="submit"]:hover {
 }
 
 .info-cards .card {
-    flex: 1;
+    flex: 1 1 0%;
     min-width: 250px;
     margin: 10px;
     padding: 20px;
-    background-image:url('../images/bg-card6.jpg');
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(45deg, #dcf4f9, #e5f9e5);
+    /* border-radius: 10px; */
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px; */
     text-align: center;
-    background-size: cover;
+    /* background-size: cover; */
+    border: none !important;
+    border-top: 4px solid blue !important;
 }
 
 .info-cards .card h3 {
@@ -268,7 +270,7 @@ button[type="submit"]:hover {
 
 .mapsec .card {
     padding: 20px;
-    background-color: #b0f4dd;
+    background-color: #f1efef;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -277,7 +279,7 @@ button[type="submit"]:hover {
 .mapsec .card h3 {
     margin-bottom: 15px;
     font-size: 20px;
-    color: #333;
+    color: #000;
 }
 
 .mapsec iframe {
@@ -378,20 +380,20 @@ button[type="submit"]:hover {
 }
 
 .team_card {
-    background-image: url(../images/bg-card5.avif);
+    background: linear-gradient(45deg, #e7f2f6, #ebfbeb);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 15px 0;
-    padding: 20px 0;
+    padding-top: 20px;
     text-align: center;
-    width: calc(25% - 30px);
+    width: calc(25% - 50px);
     background-size: cover;
 }
 
 .team_card img {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    border-radius: 10%;
+    width: 80%;
+    /* height: 100px; */
     object-fit: cover;
     margin-bottom: 15px;
 }
@@ -406,14 +408,12 @@ button[type="submit"]:hover {
     font-size: 16px;
     color: #555;
 }
-.dr1{
-background-image: url('../images/bg-card6.jpg');
-}
+
 
 /* testimonial section  */
 .testimonial-section {
     padding: 40px 20px;
-    background: linear-gradient(to left, #97f3cc, #93aff4);
+    background-color: #f1efef;
     text-align: center;
 }
 
@@ -435,8 +435,10 @@ background-image: url('../images/bg-card6.jpg');
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    border-radius: 10px;
+    background-color: #defbf8;
+    border-radius: 3rem;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 .testimonial-slide.active {
@@ -495,15 +497,15 @@ background-image: url('../images/bg-card6.jpg');
 }
 
 .appoint-card {
-    background-color:#e7f2f7;
+    background-color: #eff7f7;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    background-image: url("../images/bg-card5.avif");
+    /* background-image: url(../images/bg-card5.avif); */
     height: 14rem;
     text-align: center;
-    width:29rem;
+    width: 29rem;
     background-size: cover;
 
 }
@@ -551,17 +553,18 @@ flex-wrap: wrap;
   }
   .service-card {
     flex-direction: column;
-    background-image: url('../images/bg2.jpg');
+    background-color: #eff7f7;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     width: calc(25% - 40px);
     transition: transform 0.3s ease-in-out;
     background-size: cover;
     justify-content: center;
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
   
   .service-card:hover {
@@ -642,7 +645,7 @@ flex-wrap: wrap;
 }
 
 .statistics-section .stat img {
-    width: 100px;
+    width: 50%;
     height: auto;
     margin-bottom: 10px;
 }
@@ -651,7 +654,146 @@ flex-wrap: wrap;
     font-size: 1.1em;
     margin: 5px 0;
 }
+.btn2 {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    width:45%;
+  }
 /* service page ends  */
+/* service details page stats */
+
+.details-container {
+    width: 100%;
+    /* margin: 40px auto; */
+    padding: 1% 6%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Details Sidebar */
+  .details-sidebar {
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .details-category-options {
+    margin-bottom: 20px;
+    background-color: lightblue;
+    padding: 6%;
+    border-radius: 2%;
+  }
+  
+  .details-category-options h3 {
+    margin-top: 0;
+  }
+  
+  .details-category-options ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .details-category-options li {
+    margin-bottom: 10px;
+  }
+  
+  .details-category-options a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .details-category-options a:hover {
+    color: #23527c;
+  }
+  
+  .details-opening-hours {
+    margin-bottom: 20px;
+    background-color: lightblue;
+    padding: 6%;
+    border-radius: 2%;
+   
+  }
+  
+  .details-opening-hours h3 {
+    margin-top: 0;
+    
+  }
+  
+  .details-opening-hours ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .details-opening-hours li {
+    margin-bottom: 10px;
+  }
+  
+  /* Details Main Content */
+  .details-main-content {
+    float: left;
+    width: calc(75% - 20px);
+    padding: 20px;
+  }
+  
+  .details-image-section {
+    margin-bottom: 20px;
+  }
+  
+  .details-image-section img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .details-content-section {
+    margin-bottom: 20px;
+  }
+  
+  .details-content-section h2 {
+    margin-top: 0;
+  }
+  
+  /* Details Treatment Section */
+  .details-treatment-section {
+    clear: both;
+    padding: 20px;
+    display: flex;flex-wrap: wrap;
+  }
+  
+  .details-treatment-content {
+    margin-bottom: 20px;
+    width: 50%;
+  }
+  
+  .treatment-img {
+    margin-bottom: 20px;
+    display: flex;
+    gap:1%;
+    width:50%
+  }
+  
+  .treatment-img img {
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+/* service details page ends  */
 
 /* about page  starts*/
 
@@ -660,7 +802,7 @@ flex-wrap: wrap;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 50px 0;
-    background: linear-gradient(to left, #97f3cc, #93aff4);
+    background-color: #f1efef;
   }
   
   .home-choose-image {
@@ -723,24 +865,69 @@ flex-wrap: wrap;
     flex-wrap: wrap;
   }
 /* slider    */
+/* Slick Slider Section */
+/* Slick Slider Section */
 .slick-slider-section {
-    padding: 50px 20px;
-  }
-  .slick-slider .doctor-card {
-    /* background: linear-gradient(to bottom, rgb(81 96 235), #aaabae); */
-    /* border: 1px solid #ddd; */
-    border-radius: 5px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    max-width: 80%;
-  }
-  .slick-slider .doctor-card img {
-    width: 90%;
-    
+    padding: 40px;
+    background-color: #f9f9f9;
   }
   
+  .slick-slider-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .slick-slider-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .slick-slider {
+    display: flex;
+    flex-wrap: nowrap;
+    /* overflow-x: auto; */
+    padding: 20px 0;
+  }
+  
+  .doctor-card {
+    width: 300px; /* set the width of each card */
+    height: 400px; /* set the height of each card */
+    margin: 0 15px; /* adjust the margin to create a 3% gap between cards */
+    text-align: center;
+    background:linear-gradient(60deg, #e6f5f9, #d3f6e5);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .doctor-card img {
+    width: 300px; /* set the width of the image */
+    height: 350px; /* set the height of the image */
+    border-radius: 10px;
+    margin: 20px auto;
+  }
+  
+  .doctor-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .doctor-card p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Center the image in the doctor card */
+  .doctor-card img {
+    display: block;
+    margin: 0 auto;
+  }
+/* slider ends  */
+
   /* awards section */
   /* Accreditations and Awards Section */
 
@@ -752,7 +939,7 @@ flex-wrap: wrap;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap:5%;
+
   }  
   .accreditations-awards-section h2 {
     font-size: 24px;
@@ -769,11 +956,12 @@ flex-wrap: wrap;
   
   .accreditations-content {
     max-width: 45%;
-    margin: 0 auto;
+    margin: 37px auto;
     padding: 20px;
-    background-image: url('../images/bg1.jpg');
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
     border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     background-size: cover;
   }
   
@@ -936,8 +1124,8 @@ transform: scale(0.9);
     justify-content: space-between;
     align-items: center;
     padding: 50px 0px;
-    background: linear-gradient(to left, #97f3cc, #93aff4);
-    color:black;
+    background-color: #f1efef;
+    color: black;
     
 }
 
@@ -1059,7 +1247,7 @@ transform: scale(0.9);
     display:flex;
     flex-direction: column;
     margin: 20px;
-    background-image: url("../images/bg2.jpg");
+    /* background-image: url("../images/bg2.jpg"); */
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 20px;
@@ -1135,6 +1323,7 @@ transform: scale(0.9);
     cursor: pointer;
     margin: 20px auto;
     display: block;
+    width:8%;
   }
   .home-service-card:hover .btn1{
     background: linear-gradient(180deg,#08cc79,white) !important;
@@ -1201,7 +1390,7 @@ transform: scale(0.9);
     /* news section  */
     .news-section {
         padding: 50px 0;
-        background: linear-gradient(to left, #97f3cc, #93aff4);
+        background-color: #f1efef;
       }
       
       .news-section h2 {
@@ -1324,7 +1513,7 @@ h2{
     position: sticky !important;
 }
 .navbar-toggler-icon img {
-    width: 50px; /* Adjust logo size */
+    width: 70px; /* Adjust logo size */
     height: auto;
 }
 
@@ -1391,7 +1580,7 @@ gap:1%;
 .navbar-logo {
     width: 6rem;
     height: 3.5rem;
-    margin-right: 10px;
+    margin-left: 2%;
     border-radius: 50%;
     /* border: 1px solid; */
     /* padding: 0.1rem;*/
@@ -1405,6 +1594,7 @@ gap:1%;
     /* gap: 1%; */
     display: flex;
     flex-wrap: wrap;
+    margin-right:2%;
 }
 
 .search-btn {
