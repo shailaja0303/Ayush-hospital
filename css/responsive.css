@@ -221,8 +221,9 @@
     bottom: -43px;
   }
   .home-service-card {
-    width: 100%;
+    width: 80%;
     margin: 10px;
+    height:19%;
   }
   /* marque  */
   marquee {
@@ -312,7 +313,15 @@ nav {
 .details-treatment-content{
   width:100%;
 }
-
+.home-h1class h1{
+  font-size: 25px;
+}
+.home-pclass p{
+  font-size: 18px;
+}
+.home-hero-banner{
+  width:100%;
+}
 }
 
 
