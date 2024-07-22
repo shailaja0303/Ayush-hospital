@@ -237,6 +237,7 @@ button[type="submit"]:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px 0;
+    justify-content: center;
 }
 
 .info-cards .card {
