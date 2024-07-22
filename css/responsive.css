@@ -60,6 +60,10 @@
     .schedule p {
         font-size: 16px;
     }
+    .info-cards .card {
+      width:454px;
+      margin:0 20px;
+    }
    /* footer starts  */
    .footer {
     padding: 20px 10px;
@@ -103,7 +107,7 @@
 }
 
 .appoint-card {
-    width: 80%;
+    width: 86%;
     margin-bottom: 20px;
 }
 /* faq section  */
@@ -127,7 +131,9 @@
 /* service cards  */
 .service-card {
     width: calc(100% - 40px);
-    height:22%;
+    height:20%;
+    margin: 10px 0;
+    padding:20px 10px;
   }
   /* background  */
   .background-section h2 {
@@ -145,6 +151,9 @@
 
 .statistics-section .stat p {
     font-size: 1em;
+}
+.btn2{
+  width:56%;
 }
 /* about us page  */
 
